@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Tarea Online 3 DWES</title>
+    <title>Registro de usuario</title>
 </head>
-<body>   
+<body>
     <center>
         <div class="formulario">
-            <form method="post" action="login.php" name="formulario">
-                <h2> INICIAR DE SESIÓN </h2>
+            <form method="post" name="formulario">
+                <h2>REGISTRO</h2>
+                <?php
+                    include("conexion.php");
+                    include("registro1.php");
+                ?>
                 <div>
                     <input type="text" name="usuario" class="casillaFormulario" placeholder="Usuario"/>      
                 </div>
                 <br>
                 <div>
                     <input type="password" name="contrasena" class="casillaFormulario" placeholder="Contraseña"/>       
-                </div>
-                <br>
-                <button type="submit" name="login" class="login" value="login">Acceder</button>
+                </div><br>  
+                <button type="submit" name="acceder" class="login" value="acceder">Registrarse</button>
                 <div>
-                    <p>¿No Tienes cuenta? <a href="registro.php">Entra aquí</a></p>
+                    <p>¿Tienes cuenta? <a href="index.html">Entra aquí</a></p>
                 </div>
             </form>
         </div>
-    </center>
+    </center>    
 </body>
 </html>

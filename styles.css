@@ -1,0 +1,98 @@
+    body {
+
+        background-color: #106052;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23106052' cx='50' cy='0' r='50'/%3E%3Cg fill='%23116659' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23136d61' cx='50' cy='100' r='50'/%3E%3Cg fill='%23147368' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23157970' cx='50' cy='200' r='50'/%3E%3Cg fill='%23178078' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23188680' cx='50' cy='300' r='50'/%3E%3Cg fill='%23198d88' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b9490' cx='50' cy='400' r='50'/%3E%3Cg fill='%231d9a99' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%231fa1a1' cx='50' cy='500' r='50'/%3E%3Cg fill='%2321a8aa' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2324aeb3' cx='50' cy='600' r='50'/%3E%3Cg fill='%2327b5bc' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%232abcc5' cx='50' cy='700' r='50'/%3E%3Cg fill='%232dc3cf' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2331cad8' cx='50' cy='800' r='50'/%3E%3Cg fill='%2335d0e2' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%233ad7eb' cx='50' cy='900' r='50'/%3E%3Cg fill='%233fdef5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2344E5FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+        background-attachment: fixed;
+        background-size: contain;
+    }
+
+
+    h2 {
+
+        font-family: Trebuchet MS;
+        font-size: 30px;
+        color:#F4F7F9;
+    }
+
+
+    p {
+
+        font-family: Calibri;
+        font-size: 18px;
+    }
+
+
+    .formulario{
+
+        border-radius: 7px;
+        background-color: #89c9c9;
+        padding: 26px;
+        width: 400px;
+        margin-top: 0px;
+    }    
+
+
+    .casillaFormulario{
+
+        background-color: #F4F7F9;
+        color: #646768;
+        border: 2px solid #555555;
+        border-radius: 4px;
+        padding: 6px 22px;
+        font-size: 18px;
+        font-family: Arial;
+    }
+
+
+    .login{
+
+        background-color: #A8A7A7;
+        color: white;
+        border: 2px solid #555555;
+        border-radius: 5px;
+        padding: 6px 22px;
+        font-size: 18px;
+        font-family: Arial;
+        cursor: pointer;
+    }
+
+
+    .login:hover {
+
+        background-color: #B3B3B3;
+    }
+
+
+    .cerrar {
+
+        background-color: #A8A7A7;
+        color: white;
+        border: 2px solid #555555;
+        border-radius: 5px;
+        padding: 6px 22px;
+        font-size: 13px;
+        font-family: Arial;
+        cursor: pointer;
+    }
+
+
+    .cerrar:hover {
+
+        background-color: #B3B3B3;
+    }
+
+
+    .alerta{
+
+        text-align: center;
+        color: red;
+    }
+
+    .alertaCorrecta{
+
+        text-align: center;
+        color: green;
+    }
+
+    
+            
